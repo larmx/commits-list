@@ -1,0 +1,47 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+.loading {
+  margin: auto;
+}
+
+#root {
+  padding: 10px;
+
+  .submit-button {
+    margin: 10px auto;
+  }
+}
+
+.modal-dialog {
+  margin: 150px auto !important;
+
+  .modal-content {
+
+    .image-link {
+      margin: 10px auto;
+    }
+
+    .image {
+      width: 150px;
+      height: 150px;
+      border-radius: 75px;
+    }
+
+    .commit-message{
+      max-width: 100px;
+      overflow: scroll;
+      //text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
+
+
